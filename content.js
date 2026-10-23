@@ -1723,5 +1723,12 @@ window.COURSE = {
       "src": "'Middleclass Moneyball' early draft (Aug 2024)",
       "quote": ""
     }
-  ]
+  ],
+  "courseEpigraph": {
+    "text": "",
+    "who": "Michael Lewis",
+    "src": "Moneyball: The Art of Winning an Unfair Game (2003), Prologue",
+    "note": "Jonathan marked this passage \"Intro\" in his Moneyball Notes.",
+    "howTo": "Type the quote between the quotes after \"text\": and it appears under The course."
+  }
 };

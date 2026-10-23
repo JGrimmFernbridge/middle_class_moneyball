@@ -147,6 +147,12 @@ function Home() {
       <section className="home-sec">
         <p className="eyebrow">Stop trying to fit a broken game</p>
         <h2 className="h2">The course</h2>
+        {C.courseEpigraph && C.courseEpigraph.text && (
+          <blockquote className="epigraph">
+            <p>“{C.courseEpigraph.text}”</p>
+            <footer><Tag who="ML" /> {C.courseEpigraph.who}, <cite>{C.courseEpigraph.src}</cite></footer>
+          </blockquote>
+        )}
         <div className="tfp-bento">
           {C.modules.map((m, i) => (
             <a key={m.id} href={"#" + m.id} className={"tfp-tile tfp-tile--" + FILLS[i % FILLS.length] + " tfp-tile--span" + SPANS[i % SPANS.length]}>
