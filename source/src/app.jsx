@@ -145,8 +145,20 @@ function Home() {
       <QuoteStrip />
 
       <section className="home-sec">
-        <p className="eyebrow">Stop trying to fit a broken game</p>
-        <h2 className="h2">The course</h2>
+        <div className="course-head">
+          <div>
+            <p className="eyebrow">Stop trying to fit a broken game</p>
+            <h2 className="h2">The course</h2>
+          </div>
+          {C.courseEpigraph && (C.courseEpigraph.image || C.courseEpigraph.text) && (
+            <figure className="epigraph">
+              {C.courseEpigraph.image
+                ? <img src={C.courseEpigraph.image} alt={C.courseEpigraph.alt || ("A quote from " + C.courseEpigraph.who + ", " + C.courseEpigraph.src)} />
+                : <blockquote><p>“{C.courseEpigraph.text}”</p></blockquote>}
+              <figcaption><Tag who="ML" /> {C.courseEpigraph.who}, <cite>{C.courseEpigraph.src}</cite></figcaption>
+            </figure>
+          )}
+        </div>
         <div className="tfp-bento">
           {C.modules.map((m, i) => (
             <a key={m.id} href={"#" + m.id} className={"tfp-tile tfp-tile--" + FILLS[i % FILLS.length] + " tfp-tile--span" + SPANS[i % SPANS.length]}>

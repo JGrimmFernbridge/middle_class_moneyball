@@ -1723,5 +1723,14 @@ window.COURSE = {
       "src": "'Middleclass Moneyball' early draft (Aug 2024)",
       "quote": ""
     }
-  ]
+  ],
+  "courseEpigraph": {
+    "text": "",
+    "image": "notes/Lewis-card.jpeg",
+    "alt": "Handwritten card of a quote from Michael Lewis, Moneyball",
+    "who": "Michael Lewis",
+    "src": "Moneyball: The Art of Winning an Unfair Game (2003), Prologue",
+    "note": "Jonathan marked this passage \"Intro\" in his Moneyball Notes.",
+    "howTo": "Either type the quote into text, or upload a photo to the notes folder and put its path in image (for example notes/lewis-card.jpg) with a short description in alt. If image is set, the photo shows; otherwise the text does. Leave both empty to show nothing."
+  }
 };
