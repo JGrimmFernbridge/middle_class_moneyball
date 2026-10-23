@@ -1726,9 +1726,11 @@ window.COURSE = {
   ],
   "courseEpigraph": {
     "text": "",
+    "image": "",
+    "alt": "",
     "who": "Michael Lewis",
     "src": "Moneyball: The Art of Winning an Unfair Game (2003), Prologue",
     "note": "Jonathan marked this passage \"Intro\" in his Moneyball Notes.",
-    "howTo": "Type the quote between the quotes after \"text\": and it appears under The course."
+    "howTo": "Either type the quote into text, or upload a photo to the notes folder and put its path in image (for example notes/lewis-card.jpg) with a short description in alt. If image is set, the photo shows; otherwise the text does. Leave both empty to show nothing."
   }
 };
