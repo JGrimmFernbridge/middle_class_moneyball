@@ -1726,8 +1726,8 @@ window.COURSE = {
   ],
   "courseEpigraph": {
     "text": "",
-    "image": "",
-    "alt": "",
+    "image": "notes/Lewis-card.jpeg",
+    "alt": "Handwritten card of a quote from Michael Lewis, Moneyball",
     "who": "Michael Lewis",
     "src": "Moneyball: The Art of Winning an Unfair Game (2003), Prologue",
     "note": "Jonathan marked this passage \"Intro\" in his Moneyball Notes.",
